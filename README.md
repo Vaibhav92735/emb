@@ -16,10 +16,6 @@
     - [2. Image-to-C Array Conversion (Python)](#2-image-to-c-array-conversion-python)
     - [3. Compression on Microcontroller (Arduino)](#3-compression-on-microcontroller-arduino)
     - [4. Serial Raw Capture (Python)](#4-serial-raw-capture-python)
-7. [File Structure](#file-structure)
-8. [Customization & Configuration](#customization--configuration)
-9. [Contributing](#contributing)
-10. [License](#license)
 
 ---
 
@@ -83,3 +79,11 @@ The focus is on optimizing memory footprint and CPU load so that these technique
    ```bash
    git clone https://github.com/Vaibhav92735/emb.git
    cd video-edge-compression
+
+2. **Install Python dependencies**
+    ```bash
+    pip install opencv-python pillow pyserial
+
+3. **Prepare Arduino sketch**
+    - Open compressor.ino in the Arduino IDE.
+    - Install any required libraries (none external besides built-ins).
